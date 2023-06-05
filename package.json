@@ -1,0 +1,43 @@
+{
+  "name": "strapi-gallery-remote",
+  "version": "1.0.0",
+  "description": "The Image Gallery plugin provides a convenient way to store and display a collection of images within your application. It allows you to organize and manage multiple image URLs as a gallery.",
+  "strapi": {
+    "name": "strapi-gallery-remote",
+    "description": "The Image Gallery plugin provides a convenient way to store and display a collection of images within your application. It allows you to organize and manage multiple image URLs as a gallery.",
+    "kind": "plugin",
+    "displayName": "Gallery Remote"
+  },
+  "repository": "espitman/strapi-gallery-remote",
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
